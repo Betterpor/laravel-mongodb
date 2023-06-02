@@ -1086,7 +1086,7 @@ class Builder extends BaseBuilder
      * @param  array  $where
      * @return mixed
      */
-    protected function compileWhereNested(array $where): mixed
+    protected function compileWhereNested(array $where)
     {
         extract($where);
 
@@ -1246,7 +1246,7 @@ class Builder extends BaseBuilder
      * @param  array  $where
      * @return mixed
      */
-    protected function compileWhereRaw(array $where): mixed
+    protected function compileWhereRaw(array $where)
     {
         return $where['sql'];
     }
