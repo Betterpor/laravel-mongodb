@@ -72,7 +72,7 @@ Make sure you have the MongoDB PHP driver installed. You can find installation i
 Install the package via Composer:
 
 ```bash
-$ composer require jenssegers/mongodb
+$ composer require btb-jenssegers/mongodb
 ```
 
 ### Laravel
